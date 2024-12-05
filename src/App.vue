@@ -3,8 +3,10 @@
 </script>
 
 <template>
-<div>
-
+<div class="flex items-center justify-center">
+  <div class="mt-[64px] h-[88px] w-[80%] bg-[#6E5DC6] rounded-xl">
+    
+  </div>
 </div>
 </template>
 
