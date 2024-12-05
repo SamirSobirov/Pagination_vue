@@ -1,9 +1,9 @@
 <template>
   <div class="flex items-center flex-c justify-center">
-    <div class="mt-[64px] h-[500px] w-[80%] bg-[#d0c7ff] rounded-xl flex flex-col">
-      <div class="w-[250px] h-[500px] bg-slate-500 flex flex-col gap-2">
+    <div class="mt-[64px] h-[500px] w-[80%] bg-[#d0c7ff] flex rounded-3xl">
+      <div class="w-[250px] h-[500px] bg-slate-500 flex flex-col gap-2 ">
         <button
-          class="flex h-[52px] w-[250px] bg-slate-200 items-center text-center px-[24px] gap-3"
+          class="mt-[10px] flex h-[52px] w-[250px] bg-slate-200 items-center text-center px-[24px] gap-3"
         >
           <img
             class="w-[20px] h-[20px]"
