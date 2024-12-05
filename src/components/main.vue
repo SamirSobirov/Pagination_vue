@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center flex-c justify-center">
-    <div class="mt-[64px] h-[500px] w-[80%]  flex rounded-3xl">
+    <div class="mt-[64px] h-[500px] w-[90%]  flex rounded-3xl">
       <div class="mt-[10px] w-[250px] h-[100%] bg-[#F1F8FD] flex flex-col gap-2 ml-[3px]">
         <button
           class="flex h-[52px] w-[250px] bg-[#F1F8FD] items-center text-center px-[24px] gap-3 hover:bg-slate-300"
@@ -114,7 +114,7 @@
 
 <script>
 export default {
-  name: "mainVue",
+  name: "mainVue"
 };
 </script>
 

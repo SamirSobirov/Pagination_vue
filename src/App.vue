@@ -1,23 +1,27 @@
 <template>
-    <header>
-      <headerVue />
-      <mainVue />
-    </header>
-  </template>
-  
-  <script>
-  import HeaderVue from "./components/header.vue";
-import mainVue from './components/main.vue';
+  <header>
+    <headerVue />
 
-  
-  export default {
-    name: "App",
-    components: {
-      HeaderVue,
-      mainVue
-    },
-  };
-  </script>
-  
-  <style scoped></style>
-  
+    <div class="flex items-center justify-center gap-8">
+      <mainVue />
+      <tableVue />
+    </div>
+  </header>
+</template>
+
+<script>
+import HeaderVue from "./components/header.vue";
+import mainVue from "./components/main.vue";
+import tableVue from "./components/table.vue";
+
+export default {
+  name: "App",
+  components: {
+    HeaderVue,
+    mainVue,
+    tableVue,
+  },
+};
+</script>
+
+<style scoped></style>
