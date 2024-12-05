@@ -22,7 +22,7 @@
         >
           <img
             class="w-[20px] h-[20px]"
-            src="../../public/icons/shop.svg"
+            src="../../public/icons/agreement.svg"
             alt=""
           />
           <p class="text-lg text-[#475569] font-semibold">Договора</p>
@@ -35,7 +35,7 @@
         >
           <img
             class="w-[20px] h-[20px]"
-            src="../../public/icons/shop.svg"
+            src="../../public/icons/Community.svg"
             alt=""
           />
           <p class="text-lg text-[#475569] font-semibold">Сообщество</p>
@@ -48,7 +48,7 @@
         >
           <img
             class="w-[20px] h-[20px]"
-            src="../../public/icons/shop.svg"
+            src="../../public/icons/Notification.svg"
             alt=""
           />
           <p class="text-lg text-[#475569] font-semibold">Уведомления</p>
@@ -62,7 +62,7 @@
         >
           <img
             class="w-[20px] h-[20px]"
-            src="../../public/icons/shop.svg"
+            src="../../public/icons/Applications.svg"
             alt=""
           />
           <p class="text-lg text-[#475569] font-semibold">Заявки</p>
@@ -75,7 +75,7 @@
         >
           <img
             class="w-[20px] h-[20px]"
-            src="../../public/icons/shop.svg"
+            src="../../public/icons/Favorites.svg"
             alt=""
           />
           <p class="text-lg text-[#475569] font-semibold">Избранные</p>
@@ -88,7 +88,7 @@
         >
           <img
             class="w-[20px] h-[20px]"
-            src="../../public/icons/shop.svg"
+            src="../../public/icons/Activity.svg"
             alt=""
           />
           <p class="text-lg text-[#475569] font-semibold">Отчеты</p>
@@ -101,7 +101,7 @@
         >
           <img
             class="w-[20px] h-[20px]"
-            src="../../public/icons/shop.svg"
+            src="../../public/icons/Setting.svg"
             alt=""
           />
           <p class="text-lg text-[#475569] font-semibold">Настройки</p>
