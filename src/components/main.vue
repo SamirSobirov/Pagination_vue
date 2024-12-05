@@ -1,9 +1,9 @@
 <template>
   <div class="flex items-center flex-c justify-center">
-    <div class="mt-[64px] h-[500px] w-[80%] bg-[#d0c7ff] flex rounded-3xl">
-      <div class="mt-[10px] w-[250px] h-[100%] flex flex-col gap-2 ml-[3px]">
+    <div class="mt-[64px] h-[500px] w-[80%]  flex rounded-3xl">
+      <div class="mt-[10px] w-[250px] h-[100%] bg-[#F1F8FD] flex flex-col gap-2 ml-[3px]">
         <button
-          class="flex h-[52px] w-[250px] bg-white items-center text-center px-[24px] gap-3 hover:bg-slate-300"
+          class="flex h-[52px] w-[250px] bg-[#F1F8FD] items-center text-center px-[24px] gap-3 hover:bg-slate-300"
         >
           <img
             class="w-[20px] h-[20px] transition-colors duration-300 hover:filter hover:brightness-0 hover:invert-[10%]"
@@ -18,7 +18,7 @@
         </button>
 
         <button
-          class="flex h-[52px] w-[250px] bg-white items-center text-center px-[24px] gap-3 hover:bg-slate-300"
+          class="flex h-[52px] w-[250px] bg-[#F1F8FD] items-center text-center px-[24px] gap-3 hover:bg-slate-300"
         >
           <img
             class="w-[20px] h-[20px] transition-colors duration-300 hover:filter hover:brightness-0 hover:invert-[10%]"
@@ -31,7 +31,7 @@
         </button>
 
         <button
-          class="flex h-[52px] w-[250px] bg-white items-center text-center px-[24px] gap-3 hover:bg-slate-300"
+          class="flex h-[52px] w-[250px] bg-[#F1F8FD] items-center text-center px-[24px] gap-3 hover:bg-slate-300"
         >
           <img
             class="w-[20px] h-[20px] transition-colors duration-300 hover:filter hover:brightness-0 hover:invert-[10%]"
@@ -44,7 +44,7 @@
         </button>
 
         <button
-          class="flex h-[52px] w-[250px] bg-white items-center text-center px-[24px] gap-3 hover:bg-slate-300"
+          class="flex h-[52px] w-[250px] bg-[#F1F8FD] items-center text-center px-[24px] gap-3 hover:bg-slate-300"
         >
           <img
             class="w-[20px] h-[20px] transition-colors duration-300 hover:filter hover:brightness-0 hover:invert-[10%]"
@@ -57,7 +57,7 @@
         </button>
 
         <button
-          class="flex h-[52px] w-[250px] bg-white items-center text-center px-[24px] gap-3 hover:bg-slate-300"
+          class="flex h-[52px] w-[250px] bg-[#F1F8FD] items-center text-center px-[24px] gap-3 hover:bg-slate-300"
         >
          <img
             class="w-[20px] h-[20px] transition-colors duration-300 hover:filter hover:brightness-0 hover:invert-[10%]"
@@ -70,7 +70,7 @@
         </button>
 
         <button
-          class="flex h-[52px] w-[250px] bg-white items-center text-center px-[24px] gap-3 hover:bg-slate-300"
+          class="flex h-[52px] w-[250px] bg-[#F1F8FD] items-center text-center px-[24px] gap-3 hover:bg-slate-300"
         >
           <img
             class="w-[20px] h-[20px] transition-colors duration-300 hover:filter hover:brightness-0 hover:invert-[10%]"
@@ -83,7 +83,7 @@
         </button>
 
         <button
-          class="flex h-[52px] w-[250px] bg-white items-center text-center px-[24px] gap-3 hover:bg-slate-300"
+          class="flex h-[52px] w-[250px] bg-[#F1F8FD] items-center text-center px-[24px] gap-3 hover:bg-slate-300"
         >
          <img
             class="w-[20px] h-[20px] transition-colors duration-300 hover:filter hover:brightness-0 hover:invert-[10%]"
@@ -96,7 +96,7 @@
         </button>
 
         <button
-          class="flex h-[52px] w-[250px] bg-white items-center text-center px-[24px] gap-3 hover:bg-slate-300"
+          class="flex h-[52px] w-[250px] bg-[#F1F8FD] items-center text-center px-[24px] gap-3 hover:bg-slate-300"
         >
           <img
             class="w-[20px] h-[20px] transition-colors duration-300 hover:filter hover:brightness-0 hover:invert-[10%]"
