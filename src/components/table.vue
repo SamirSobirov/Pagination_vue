@@ -1,5 +1,8 @@
+
+
 <template>
   <div class="flex flex-col">
+    <!-- 1 -->
     <div class="flex w-[1100px] justify-between items-center p-4">
       <div class="flex gap-[16px]">
         <p class="text-[#475569]">jhfyis8c..</p>
@@ -75,6 +78,7 @@
     <hr />
 
     <!-- 4 -->
+
     <div class="flex w-[1100px] justify-between items-center p-4">
       <div class="flex gap-[16px]">
         <p class="text-[#475569]">jhfyis8c..</p>
@@ -100,7 +104,6 @@
     <hr />
 
     <!-- 5 -->
-
     <div class="flex w-[1100px] justify-between items-center p-4">
       <div class="flex gap-[16px]">
         <p class="text-[#475569]">jhfyis8c..</p>
@@ -122,57 +125,34 @@
         <p>Авг 5,2022</p>
       </div>
     </div>
+    <hr class="pb-[40px]" />
 
-    <hr />
 
     <!-- 6 -->
-
     <div class="flex w-[1100px] justify-between items-center p-4">
-      <div class="flex gap-[16px]">
-        <p class="text-[#475569]">jhfyis8c..</p>
-        <p>101</p>
-        <p>ELBEK TRAVEL</p>
-      </div>
+      
 
-      <div class="flex gap-[26px]">
-        <p>USD</p>
-        <p>3.000</p>
-      </div>
+        <button class="flex border items-center gap-4 border-[#475569] rounded-3xl px-4 py-2">
+            <p class="text-[#475569]">Показать по 5</p>
+            <img src="../../public/icons/Arrow-Down2.svg" alt="">
+        </button>
+        
+        
+      
 
-      <div class="flex gap-[12px]">
-        <img src="../../public/icons/plane_icon.svg" alt="" />
-        <p>Авиа</p>
-      </div>
 
       <div class="flex">
         <p>Авг 5,2022</p>
       </div>
     </div>
 
-    <hr />
 
-    <div class="pt-[32px] flex w-[1100px] justify-between items-center p-4">
-      <div class="flex gap-[16px]">
-        <p class="text-[#475569]">jhfyis8c..</p>
-        <p>101</p>
-        <p>ELBEK TRAVEL</p>
-      </div>
 
-      <div class="flex gap-[26px]">
-        <p>USD</p>
-        <p>3.000</p>
-      </div>
-
-      <div class="flex gap-[12px]">
-        <img src="../../public/icons/plane_icon.svg" alt="" />
-        <p>Авиа</p>
-      </div>
-
-      <div class="flex">
-        <p>Авг 5,2022</p>
-      </div>
-    </div>
+    <!-- Повторите для остальных секций -->
   </div>
+
+
+
 
   <!-- 2 -->
 </template>
@@ -181,4 +161,5 @@
 export default {
   name: "tableVue",
 };
+
 </script>
