@@ -1,6 +1,5 @@
 <template>
   <div class="flex flex-col">
-    <!-- Контейнер с прокруткой -->
     <div
       class="flex flex-col max-h-[400px] overflow-y-auto"
     >
@@ -76,9 +75,9 @@ export default {
   data() {
     return {
       tours: [
-        { id: "1", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
-        { id: "2", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
-        { id: "3", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "1", name: "Elbek TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "2", name: "Samir TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "3", name: "John TRAVEL", price: "3.000", date: "Авг 5, 2022" },
         { id: "4", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
         { id: "5", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
         { id: "6", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
