@@ -34,7 +34,7 @@
         @click="togglePerPage"
       >
         <p class="text-[#475569]">
-          {{ itemsPerPage === 5 ? "Показать по 5" : "Показать по 5" }}
+          {{ itemsPerPage === 5 ? "Показать всё" : "Показать по 5" }}
         </p>
         <img src="../../public/icons/Arrow-Down2.svg" alt="" />
       </button>
