@@ -1,30 +1,36 @@
 <template>
   <div class="flex flex-col">
+    <!-- Контейнер с прокруткой -->
     <div
-      v-for="tour in paginatedTours"
-      :key="tour.id"
-      class="flex w-[1100px] justify-between items-center p-4"
+      class="flex flex-col max-h-[400px] overflow-y-auto"
     >
-      <div class="flex gap-[16px]">
-        <p class="text-[#475569]">ID: {{ tour.id }}</p>
-        <p>{{ tour.name }}</p>
-      </div>
+      <div
+        v-for="tour in paginatedTours"
+        :key="tour.id"
+        class="flex w-[1100px] justify-between items-center p-4"
+      >
+        <div class="flex gap-[16px]">
+          <p class="text-[#475569]">ID: {{ tour.id }}</p>
+          <p>{{ tour.name }}</p>
+        </div>
 
-      <div class="flex gap-[26px]">
-        <p>USD</p>
-        <p>{{ tour.price }}</p>
-      </div>
+        <div class="flex gap-[26px]">
+          <p>USD</p>
+          <p>{{ tour.price }}</p>
+        </div>
 
-      <div class="flex gap-[12px]">
-        <img src="../../public/icons/plane_icon.svg" alt="Plane Icon" />
-        <p>Авиа</p>
-      </div>
+        <div class="flex gap-[12px]">
+          <img src="../../public/icons/plane_icon.svg" alt="Plane Icon" />
+          <p>Авиа</p>
+        </div>
 
-      <div class="flex">
-        <p>{{ tour.date }}</p>
+        <div class="flex">
+          <p>{{ tour.date }}</p>
+        </div>
       </div>
     </div>
 
+    <!-- Навигация по страницам -->
     <div
       v-if="totalPages > 1"
       class="flex w-[1100px] justify-between items-center p-4"
