@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-
+  
     <div
       v-if="totalPages > 1"
       class="flex w-[1100px] justify-between items-center p-4"
@@ -130,24 +130,3 @@ export default {
   },
 };
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
