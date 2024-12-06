@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center justify-center">
     <div
-      class="mt-[64px] h-[200px] w-[80%] bg-[#5941d3] rounded-xl flex gap-1 items-center justify-center"
+      class="mt-[20px] h-[200px] w-[80%] bg-[#5941d3] rounded-xl flex gap-1 items-center justify-center"
     >
       <div class="relative w-[300px]">
         <input
