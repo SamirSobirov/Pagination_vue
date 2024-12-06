@@ -2,7 +2,9 @@
   <header>
     <headerVue />
 
+<aviaInputs/>
     <div class="flex items-center justify-center gap-8">
+
       <mainVue />
       <tableVue />
     </div>
@@ -13,6 +15,7 @@
 import HeaderVue from "./components/header.vue";
 import mainVue from "./components/main.vue";
 import tableVue from "./components/table.vue";
+import aviaInputs from "./components/aviaInputs.vue";
 
 export default {
   name: "App",
@@ -20,6 +23,7 @@ export default {
     HeaderVue,
     mainVue,
     tableVue,
+    aviaInputs
   },
 };
 </script>
