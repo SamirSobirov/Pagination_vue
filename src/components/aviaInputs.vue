@@ -25,9 +25,33 @@
   </div>
 </template>
 
+
 <script>
+import axios from "axios";
+
 export default {
   name: "aviaInputs",
+  data() {
+    return {
+      fromAirport: "",
+      toAirport: "",
+      fromAirportCode: "SKD",
+      toAirportCode: "",
+      airports: [],
+    };
+  },
+  methods: {
+    async fetchAirports() {
+      try {
+        const response = await axios.get(
+          "https://api2.globaltravel.space/static/airports"
+        );
+        this.airports = response.data;
+      } catch (error) {
+        console.error("Error fetching airports:", error);
+      }
+    },
+  },
 };
 </script>
 
