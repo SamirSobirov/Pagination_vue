@@ -1,8 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <div
-      class="flex flex-col max-h-[400px] overflow-y-auto"
-    >
+    <div class="flex flex-col max-h-[400px] overflow-y-auto">
       <div
         v-for="tour in paginatedTours"
         :key="tour.id"
@@ -80,7 +78,12 @@ export default {
         { id: "4", name: "Alex TRAVEL", price: "3.000", date: "Авг 5, 2022" },
         { id: "5", name: "Rizo TRAVEL", price: "3.000", date: "Авг 5, 2022" },
         { id: "6", name: "Kery TRAVEL", price: "3.000", date: "Авг 5, 2022" },
-        { id: "7", name: "Example TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        {
+          id: "7",
+          name: "Example TRAVEL",
+          price: "3.000",
+          date: "Авг 5, 2022",
+        },
         { id: "8", name: "Qwerty TRAVEL", price: "3.000", date: "Авг 5, 2022" },
         { id: "9", name: "Aleksa TRAVEL", price: "3.000", date: "Авг 5, 2022" },
         { id: "10", name: "Morty TRAVEL", price: "3.000", date: "Авг 5, 2022" },
