@@ -1,6 +1,5 @@
 <template>
   <div class="flex flex-col">
-    
     <div
       v-for="tour in paginatedTours"
       :key="tour.id"
@@ -26,7 +25,6 @@
       </div>
     </div>
 
-
     <div
       v-if="totalPages > 1"
       class="flex w-[1100px] justify-between items-center p-4"
@@ -36,7 +34,7 @@
         @click="togglePerPage"
       >
         <p class="text-[#475569]">
-          {{ itemsPerPage === 5 ? 'Показать по 5' : 'Показать по 5' }}
+          {{ itemsPerPage === 5 ? "Показать по 5" : "Показать по 5" }}
         </p>
         <img src="../../public/icons/Arrow-Down2.svg" alt="" />
       </button>
@@ -67,28 +65,27 @@
   </div>
 </template>
 
-
 <script>
 export default {
   data() {
     return {
       tours: [
-        { id: '1', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '2', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '3', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '4', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '5', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '6', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '7', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '8', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '9', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '10', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '11', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '12', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
-        { id: '13', name: 'ELBEK TRAVEL', price: '3.000', date: 'Авг 5, 2022' },
+        { id: "1", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "2", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "3", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "4", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "5", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "6", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "7", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "8", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "9", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "10", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "11", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "12", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
+        { id: "13", name: "ELBEK TRAVEL", price: "3.000", date: "Авг 5, 2022" },
       ],
       currentPage: 1,
-      itemsPerPage: 5, 
+      itemsPerPage: 5,
     };
   },
   computed: {
@@ -117,10 +114,10 @@ export default {
     },
     togglePerPage() {
       if (this.itemsPerPage === 5) {
-        this.itemsPerPage = this.tours.length; 
+        this.itemsPerPage = this.tours.length;
       } else {
-        this.itemsPerPage = 5; 
-        this.currentPage = 1; 
+        this.itemsPerPage = 5;
+        this.currentPage = 1;
       }
     },
   },
