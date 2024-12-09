@@ -100,9 +100,3 @@ export default {
   },
 };
 </script>
-
-
-
-
-
-
