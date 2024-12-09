@@ -13,7 +13,7 @@
     />
     <div
       v-if="showDropdown"
-      class="absolute h-[400px] left-0 mt-2 bg-white border border-gray-300 rounded-lg shadow-lg w-full z-10"
+      class="absolute h-[400px] left-0 mt-2 bg-white border border-gray-300 rounded-lg shadow-lg w-[400px] z-10"
     >
       <ul>
         <li
